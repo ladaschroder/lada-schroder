@@ -45,9 +45,33 @@ img {
 }
 
 /* Hero section */
-.hero-section {
+ .hero-section {
   padding-top: 20px;
-  transition: opacity 0.35s ease, transform 0.35s ease;
+  position: relative;
+}
+
+.hero-title,
+.hero-name {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-image-wrap {
+  width: 500px;
+  height: 400px;
+  margin-left: auto;
+  margin-top: -20px;
+  transition: transform 0.45s ease, opacity 0.45s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
 }
 
 .hero-title {
