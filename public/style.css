@@ -69,13 +69,13 @@ img {
 
 .hero-image-wrap {
   width: 500px;
+  height: 400px;
   margin-left: auto;
   margin-top: -20px;
   background-image: url("/public/images/images/images:hero.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  height: 400px;
 }
 
 .hero-text {
@@ -148,13 +148,13 @@ img {
 
 .hero-image-wrap {
   width: 500px;
+  height: 400px;
   margin-left: auto;
   margin-top: -20px;
   background-image: url("/public/images/images/images:hero.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  height: 400px;
   transition: transform 0.45s ease, opacity 0.45s ease;
 }
 
