@@ -151,11 +151,15 @@ img {
   height: 400px;
   margin-left: auto;
   margin-top: -20px;
-  background-image: url("/public/images/images/images:hero.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
   transition: transform 0.45s ease, opacity 0.45s ease;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
 }
 
 body.scrolled .hero-section {
