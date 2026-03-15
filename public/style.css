@@ -76,7 +76,7 @@ img {
 .hero-image-wrap {
   grid-column: 2;
   width: 500px;
-  height: 400px;
+  height: auto;
   margin-top: -40px;
   position: relative;
   z-index: 1;
@@ -691,4 +691,112 @@ body.scrolled {
   height: 1px;
   background: #111;
   margin-bottom: 18px;
+}
+
+/* Mobile version */
+
+@media (max-width: 700px) {
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-title {
+    font-size: 64px;
+    line-height: 0.95;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .hero-name {
+    font-size: 24px;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 12px;
+    max-width: 100%;
+  }
+
+  .hero-image-wrap {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin: 24px auto 0;
+  }
+
+  .hero-text {
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 100%;
+    margin-top: 24px;
+  }
+
+  .hero-text p {
+    margin-bottom: 18px;
+  }
+
+  .page,
+  body {
+    overflow-x: hidden;
+  }
+
+  .internship-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .internship-grid .grid-item {
+    width: 100%;
+    height: auto;
+  }
+
+  .internship-grid .grid-item.image img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+  }
+
+  .internship-item-1 { order: 1; }
+  .internship-item-4 { order: 2; }
+  .internship-item-2 { order: 3; }
+  .internship-item-5 { order: 4; }
+  .internship-item-3 { order: 5; }
+  .internship-item-10 { order: 6; }
+  .internship-item-7 { order: 7; }
+  .internship-item-11 { order: 8; }
+  .internship-item-8 { order: 9; }
+  .internship-item-6 { order: 10; }
+  .internship-item-9 { order: 11; }
+  .internship-item-13 { order: 12; }
+  .internship-item-12 { order: 13; }
+
+  .mention-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .mention-grid .grid-item {
+    width: 100%;
+    height: auto;
+  }
+
+  .mention-grid .grid-item.image img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+  }
+
+  .work-item-1 { order: 1; }
+  .work-item-3 { order: 2; }
+  .work-item-2 { order: 3; }
+  .work-item-6 { order: 4; }
+  .work-item-4 { order: 5; }
+  .work-item-7 { order: 6; }
+  .work-item-5 { order: 7; }
+  .work-item-8 { order: 8; }
+  .work-item-9 { order: 9; }
 }
