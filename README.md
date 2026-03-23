@@ -16,5 +16,4 @@ A responsive portfolio website showcasing my projects and skills.
 
 Feel free to reach out:
 - Email: lada.schroder@gmail.com
-- GitHub: [github.com/ladaschroder](https://github.com/ladaschroder)
 
