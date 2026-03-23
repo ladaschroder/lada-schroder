@@ -31,7 +31,5 @@ Welcome to my portfolio! This site is a comprehensive showcase of my work, inclu
 
 Feel free to reach out:
 - Email: lada.schroder@gmail.com
-- GitHub: [github.com/ladaschroder](https://github.com/ladaschroder)
-
 ---
 
