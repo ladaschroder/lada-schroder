@@ -1,17 +1,20 @@
 
 
-# WebAsia Restaurant
-A responsive website for a restaurant, featuring menu, contact info, and modern design.
-- [View on GitHub](https://github.com/ladaschroder/WebRestorant)
-- [Live Demo](https://ladaschroder.github.io/WebRestorant) (if deployed)
+# Lada Schroder - Portfolio
+
+A responsive portfolio website showcasing my projects and skills.
+
+- [Live Demo](https://ladaschroder.github.io/lada-schroder/)
 
 ## Technologies Used
 
 - HTML5
+- CSS3
+- JavaScript
 
 ## Contact
 
 Feel free to reach out:
-- Email: [lada.schroder@gmail.com]
-- GitHub: [https://github.com/ladaschroder]
+- Email: lada.schroder@gmail.com
+- GitHub: [github.com/ladaschroder](https://github.com/ladaschroder)
 
