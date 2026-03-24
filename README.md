@@ -4,7 +4,7 @@
 
 A responsive portfolio website showcasing my projects, experience, and professional skills.
 
-- [Live Demo](https://ladaschroder.github.io/lada-schroder/)
+- [Live Demo](https://ladaschroder.github.io/Portfolio/)
 
 ## About
 
